@@ -17,7 +17,9 @@ A simple and powerful RESTful API for managing user notes with authentication, C
 🧵 Clean and scalable folder structure
 
 🛡️ Security best practices
+
 ------------------------------------------------------------
+
 Tech Stack
 
 Node.js
@@ -31,7 +33,9 @@ JWT Authentication
 dotenv
 
 Winston Logger (optional)
+
 ---------------------------------------------------------
+
 Installation & Setup
 
 1️⃣ Clone the project
@@ -41,25 +45,35 @@ git clone https://github.com/your-username/notes-api.git
 cd notes-api
 
 2️⃣ Install dependencies
+
 npm install
 
 environment variables
 
 Create a .env file and add:
+
 PORT=5000
+
 MONGO_URI=your_mongo_connection_string
+
 JWT_SECRET=your_jwt_secret
+
 NODE_ENV=development
 
 4️⃣ Start the server
+
 npm run dev
 --------------------------------------------------------
 API Endpoints
 
 🔐 Auth Routes
+
 Method	Endpoint	Description
+
 POST	/api/users/register	Register a new user
+
 POST	/api/users/login	Login user
+
 --------------------------------------------------------
 Notes Routes
 
@@ -74,6 +88,7 @@ GET	/api/notes/:id	Get a single note
 PUT	/api/notes/:id	Update a note
 
 DELETE	/api/notes/:id	Delete a note
+
 -------------------------------------------------------
 Testing the API
 
@@ -84,6 +99,7 @@ Postman
 Insomnia
 
 Thunder Client (VSCode
+
 --------------------------------------------------------
 Error Handling
 
@@ -106,17 +122,22 @@ Rate limiting
 Add role-based access (admin/user)
 
 Unit testing with Jest
+
 -------------------------------------------------------
 Author
 
 Mohamed Amr
+
 Backend Developer (Node.js)
+
 ------------------------------------------------------
+
 Contribution
 
 Feel free to submit Pull Requests!
 
 If you like the project, ⭐ star it on GitHub.
+
 
 
 
