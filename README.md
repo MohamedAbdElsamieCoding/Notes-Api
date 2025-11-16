@@ -1,4 +1,5 @@
 Notes API
+----------
 
 A simple and powerful RESTful API for managing user notes with authentication, CRUD operations, and full validation.
 
@@ -137,6 +138,7 @@ Contribution
 Feel free to submit Pull Requests!
 
 If you like the project, ⭐ star it on GitHub.
+
 
 
 
