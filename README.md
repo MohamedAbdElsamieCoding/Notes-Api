@@ -38,14 +38,17 @@ Winston Logger (optional)
 ---------------------------------------------------------
 
 Installation & Setup
+--------------------
 
 1️⃣ Clone the project
+--------------------
 
 git clone https://github.com/your-username/notes-api.git
 
 cd notes-api
 
 2️⃣ Install dependencies
+------------------------
 
 npm install
 
@@ -62,10 +65,14 @@ JWT_SECRET=your_jwt_secret
 NODE_ENV=development
 
 4️⃣ Start the server
+--------------------
 
 npm run dev
+
 --------------------------------------------------------
+
 API Endpoints
+-------------
 
 🔐 Auth Routes
 
@@ -76,7 +83,8 @@ POST	/api/users/register	Register a new user
 POST	/api/users/login	Login user
 
 --------------------------------------------------------
-Notes Routes
+📝 Notes Routes
+----------------
 
 Method	Endpoint	Description
 
@@ -92,6 +100,7 @@ DELETE	/api/notes/:id	Delete a note
 
 -------------------------------------------------------
 Testing the API
+----------------
 
 You can use:
 
@@ -103,6 +112,7 @@ Thunder Client (VSCode
 
 --------------------------------------------------------
 Error Handling
+----------------
 
 All errors follow a unified JSON structure:
 {
@@ -111,6 +121,7 @@ All errors follow a unified JSON structure:
 }
 -------------------------------------------------------
 Future Improvements
+--------------------
 
 Add refresh tokens
 
@@ -126,6 +137,7 @@ Unit testing with Jest
 
 -------------------------------------------------------
 Author
+------
 
 Mohamed Amr
 
@@ -134,10 +146,12 @@ Backend Developer (Node.js)
 ------------------------------------------------------
 
 Contribution
+-------------
 
 Feel free to submit Pull Requests!
 
 If you like the project, ⭐ star it on GitHub.
+
 
 
 
