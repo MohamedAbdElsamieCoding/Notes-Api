@@ -18,22 +18,6 @@ A simple and powerful RESTful API for managing user notes with authentication, C
 
 🛡️ Security best practices
 ------------------------------------------------------------
-📂 Project Structure
-
-project/
-│── src/
-│   ├── config/
-│   ├── controllers/
-│   ├── middleware/
-│   ├── models/
-│   ├── routes/
-│   ├── utils/
-│   └── server.js
-│
-├── .env
-├── package.json
-└── README.md
----------------------------------------------------------
 Tech Stack
 
 Node.js
@@ -123,4 +107,5 @@ Contribution
 
 Feel free to submit Pull Requests!
 If you like the project, ⭐ star it on GitHub.
+
 
