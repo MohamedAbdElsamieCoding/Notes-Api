@@ -64,10 +64,15 @@ POST	/api/users/login	Login user
 Notes Routes
 
 Method	Endpoint	Description
+
 POST	/api/notes	Create a note
+
 GET	/api/notes	Get all notes
+
 GET	/api/notes/:id	Get a single note
+
 PUT	/api/notes/:id	Update a note
+
 DELETE	/api/notes/:id	Delete a note
 -------------------------------------------------------
 Testing the API
@@ -112,6 +117,7 @@ Contribution
 Feel free to submit Pull Requests!
 
 If you like the project, ⭐ star it on GitHub.
+
 
 
 
