@@ -19,6 +19,7 @@ A simple and powerful RESTful API for managing user notes with authentication, C
 🛡️ Security best practices
 ------------------------------------------------------------
 📂 Project Structure
+
 project/
 │── src/
 │   ├── config/
@@ -122,3 +123,4 @@ Contribution
 
 Feel free to submit Pull Requests!
 If you like the project, ⭐ star it on GitHub.
+
