@@ -33,9 +33,11 @@ dotenv
 Winston Logger (optional)
 ---------------------------------------------------------
 Installation & Setup
+
 1️⃣ Clone the project
 
 git clone https://github.com/your-username/notes-api.git
+
 cd notes-api
 
 2️⃣ Install dependencies
@@ -53,12 +55,14 @@ NODE_ENV=development
 npm run dev
 --------------------------------------------------------
 API Endpoints
+
 🔐 Auth Routes
 Method	Endpoint	Description
 POST	/api/users/register	Register a new user
 POST	/api/users/login	Login user
 --------------------------------------------------------
 Notes Routes
+
 Method	Endpoint	Description
 POST	/api/notes	Create a note
 GET	/api/notes	Get all notes
@@ -106,6 +110,8 @@ Backend Developer (Node.js)
 Contribution
 
 Feel free to submit Pull Requests!
+
 If you like the project, ⭐ star it on GitHub.
+
 
 
